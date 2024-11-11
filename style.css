@@ -1,0 +1,292 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background: linear-gradient(#c832bb,pink);
+  margin-bottom: 15px;
+}
+
+.pesquisar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.search-text {
+  border: 3px dolid#545454;
+  border-radius: 12px;
+  width: 280px;
+  height: 30px;
+  padding: 10px 20px;
+  color: #0a0a0a;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.inicio {
+  justify-self: flex-start;
+}
+
+.inicio img {
+  cursor: pointer;
+  width: 130px;
+  height: 90px;
+  display: block;
+  border: 2px solid #b82e6a;
+  border-radius: 70%;
+}
+
+ul,li {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 30px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+nav ul li a {
+  padding: 10px 20px;
+}
+
+nav ul li a:hover {
+  color: #f5fcff;
+}
+
+.right-side-menu {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding-right: 10px;
+}
+
+main img {
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, .5);
+}
+
+.imagensPrincipais {
+  margin-top: 1%;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+  height: 50%;
+  width: 100%;
+
+}
+
+.ImagensPrincipais img {
+  margin-top: 0, 5%;
+  width: 50%;
+  height: 50%;
+  border-radius: 10px;
+}
+
+.imagensprincipais1 {
+  margin-top: 1%;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+.imagensprincipais2 {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+.propaganda {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.propaganda1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+form {
+  padding-left: 40px;
+  background: black;
+  height: 130px;
+  text-align: left;
+  padding: 50px;
+  position: stick;
+  font-size: 20px;
+
+  display: flex;
+
+  align-items: center;
+
+}
+
+#rd {
+  margin-left: 35px;
+  font-size: 20px;
+
+}
+
+#btn {
+
+  border: none;
+  color: black;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 8px;
+  margin-left: 30px;
+  padding: 10px 20px;
+}
+
+
+#btn:hover {
+  background: #00f0ec;
+}
+
+footer {
+  background: linear-gradient(pink,#c832bb);
+  color: #000080;
+  text-align: left;
+  padding: 32px;
+  height: 10px;
+  position: stick;
+  font-size: 10px;
+  font-family: helvetica;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+footer div {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  padding-left: 15px;
+  justify-items: center;
+}
+
+.Direitos {
+  display: flex;
+  align-items: center;
+  margin-top: 5%;
+  font-size: 15px;
+  color: #fff;
+  margin-left: 5%;
+}
+
+.insta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.em input {
+  padding: 10px 20px;
+  border: 3px solid #545454;
+}
+
+#tc{
+  cursor: pointer;
+}
+
+.container{
+  display: flex;
+  transition: 0.7s ease-in-out;
+  transform: translateX(0);
+}
+.card{
+  width:300px;
+  border:1px solid #CCC;
+  border-radius:8px;
+  transition:transform 0.3s,box-shadow 0.3s
+}
+
+.card img{
+  width:100%;
+  height:auto
+}
+
+.card-content{
+  padding:20px
+}
+
+.card-title{
+  margin:0;
+  font-size:1.5em
+}
+
+.card-description{
+  color:#666
+}
+
+.card-button{
+  text-align: center;
+  background-color: #ff6f61;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px 30px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.card-button:hover {
+  background-color: #ff4c3b;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-button:active {
+  transform: scale(0.95);
+}
+
+
+#dvSlider{
+  width:1100px;
+  height:322px;
+  border:1px solid black;
+  margin: auto;
+}

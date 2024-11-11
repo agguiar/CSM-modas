@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrinho de Compras</title>
+  <link rel="stylesheet" href="estilo_carrinho.css">
+  <link rel="icon" href="img/WhatsApp-Image-2024-05-29-at-12.53.17.ico">
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>Carrinho de Compras</h1>
+    </header>
+
+    <main>
+      <table class="tabela-carrinho">
+        <thead>
+          <tr>
+            <th>Produto</th>
+            <th>Quantidade</th>
+            <th>Total</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Vestido Azul</td>
+            <td><input type="number" value="1" min="1" class="quantidade"></td>
+            <td class="total-item">R$299,90 </td>
+          </tr>
+          <tr>
+            <td>Vestido Longo Rosa</td>
+            <td><input type="number" value="1" min="1" class="quantidade"></td>
+            <td class="total-item">R$399,90 </td>
+          </tr>
+          <tr>
+            <td>Camisa Marrom</td>
+            <td><input type="number" value="1" min="1" class="quantidade"></td>
+            <td class="total-item">R$129,90 </td>
+          </tr>
+          <tr>
+            <td>Calça Linho Bege</td>
+            <td><input type="number" value="1" min="1" class="quantidade"></td>
+            <td class="total-item">R$439,90 </td>
+          </tr>
+          
+        </tbody>
+      </table>
+
+      <div class="resumo-carrinho">
+        <p><strong>Total do Carrinho: </strong> <span id="total-carrinho">R$1.269,60</span></p>
+        <button id="finalizarCompra">Finalizar Compra</button>
+      </div>
+      <div id="mensagemCompra">
+        <h2>Compra Finalizada com Sucesso!</h2>
+        <p>Obrigado pela sua compra! Seu pedido está sendo processado.</p>
+      </div>
+    </main>
+  </div>
+  <script src = 'script_carrinho.js'></script>
+</body>
+</html>
