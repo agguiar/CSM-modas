@@ -1,4 +1,4 @@
-var slides = ['img1.jpg', 'img2.jpg', 'image_3.jpg']
+var slides = ['img1.jpg', 'img2.jpg', 'imagem_3.jpg']
 var tam = slides.length
 var sAtual = 0
 var tmpslider
